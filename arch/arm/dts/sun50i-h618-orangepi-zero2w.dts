@@ -35,6 +35,10 @@
 	vmmc-supply = <&reg_dldo1>;
 };
 
+&ohci0 {
+	status = "okay";
+};
+
 &r_i2c {
 	status = "okay";
 
