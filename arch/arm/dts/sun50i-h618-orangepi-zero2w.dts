@@ -12,6 +12,10 @@
 	compatible = "xunlong,orangepi-zero2w", "allwinner,sun50i-h618";
 };
 
+&ehci0 {
+	status = "okay";
+};
+
 &emac0 {
 	allwinner,tx-delay-ps = <700>;
 	phy-mode = "rgmii-rxid";
